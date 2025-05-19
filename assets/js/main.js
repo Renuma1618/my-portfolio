@@ -41,7 +41,7 @@
     }
   });
 
-  // Activate smooth scroll on page load with hash links in the url
+
   $(document).ready(function() {
     if (window.location.hash) {
       var initial_nav = window.location.hash;
@@ -69,7 +69,7 @@
     }
   });
 
-  // Navigation active state on scroll
+
   var nav_sections = $('section');
   var main_nav = $('.nav-menu, .mobile-nav');
 
@@ -92,7 +92,7 @@
     });
   });
 
-  // Back to top button
+
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('.back-to-top').fadeIn('slow');
@@ -108,13 +108,13 @@
     return false;
   });
 
-  // jQuery counterUp
+
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
     time: 1000
   });
 
-  // Skills section
+
   $('.skills-content').waypoint(function() {
     $('.progress .progress-bar').each(function() {
       $(this).css("width", $(this).attr("aria-valuenow") + '%');
@@ -123,7 +123,7 @@
     offset: '80%'
   });
 
-  // Porfolio isotope and filter
+
   $(window).on('load', function() {
     var portfolioIsotope = $('.portfolio-container').isotope({
       itemSelector: '.portfolio-item',
@@ -140,13 +140,13 @@
       aos_init();
     });
 
-    // Initiate venobox (lightbox feature used in portofilo)
+  
     $(document).ready(function() {
       $('.venobox').venobox();
     });
   });
 
-  // Testimonials carousel (uses the Owl Carousel library)
+
   $(".testimonials-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -164,7 +164,6 @@
     }
   });
 
-  // Portfolio details carousel
   $(".portfolio-details-carousel").owlCarousel({
     autoplay: true,
     dots: true,
@@ -172,7 +171,7 @@
     items: 1
   });
 
-  // Init AOS
+ 
   function aos_init() {
     AOS.init({
       duration: 1000,
@@ -187,7 +186,7 @@
 })(jQuery);
 
 
-/*console print*/
+
 console.log(
   `%c                       
                                 ___________________________________________
