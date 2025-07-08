@@ -10,6 +10,6 @@ This is my personal portfolio website, built using HTML, CSS, JavaScript and jQu
 📬 Contact – Get in touch via a simple contact form
 🔗 Live Demo: (If hosted, add your portfolio link here)
 
-# 📂 Tech Stack: HTML | CSS | JavaScript | React | jQuery
+# 📂 Tech Stack: HTML | CSS | JavaScript | jQuery
 
 Feel free to explore and connect with me! 😊
